@@ -95,7 +95,7 @@ const maxSliceSum = arr => {
   let sum = 0;
   let max = [];
   for (let i = 0; i < arr.length; i++) {
-    //if current number is 0 or more, add this number to the sum 7 total
+    //if current number is 0 or more, add this number to the sum / total
     if (arr[i] >= 0) {
       sum += arr[i];
     }
